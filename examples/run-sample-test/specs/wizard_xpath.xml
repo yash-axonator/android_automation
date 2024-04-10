@@ -1,0 +1,50 @@
+<locators>
+    <locator id="usernameInput">//*[@resource-id="com.axonator:id/edtUsernameActLogin"]</locator>
+    <locator id="passwordInput">//*[@resource-id="com.axonator:id/edtPasswordActLogin"]</locator>
+    <locator id="loginButton">//*[@resource-id="com.axonator:id/btnLoginLogin"]</locator>
+
+    <locator id="openApp">(//android.widget.FrameLayout[@resource-id="com.axonator:id/frmlayout"])[1]/android.widget.RelativeLayout/android.widget.ImageView</locator>
+    <locator id="openForm">//android.widget.TextView[@resource-id="com.axonator:id/tvGridMyApp" and @text="Select safety"]</locator>
+    <locator id="settings">//android.widget.TextView[@content-desc="Settings"]</locator>
+    <locator id="disableInline">//android.widget.TextView[@resource-id="android:id/title"]</locator>
+    <locator id="nextButton">//android.widget.Button[@resource-id="com.axonator:id/btnNextActTraverseWidgets"]</locator>
+
+
+    <locator id="addRecord">//android.widget.ImageButton[@resource-id="com.axonator:id/fab_add"]</locator>
+    <locator id="tapHere">//android.widget.TextView[@resource-id="com.axonator:id/textValueWidgetValue" and @text="Tap here to enter"]</locator>
+    <locator id="enterResponse">//android.widget.EditText[@resource-id="com.axonator:id/edtWidgetTextFieldFrag"]</locator>
+
+
+    <locator id="choiceList">//android.widget.CheckedTextView[@resource-id="com.axonator:id/checked_text_item" and @text="To Do"]</locator>
+    
+    <locator id="cameraButton">//android.widget.ImageButton[@resource-id="com.axonator:id/btnCaptureImageWidgetCaptureImageFrag"]</locator>
+    <locator id="capturePhoto">//android.widget.ImageView[@resource-id="com.axonator:id/capture"]</locator>
+    
+    <locator id="saveButton">//android.widget.TextView[@resource-id="com.axonator:id/view_alert_count_textview"]</locator>
+    <locator id="stopWatchTap">//android.widget.TextView[@resource-id="com.axonator:id/textValueWidgetValue"]</locator>
+    <locator id="stopWatchStart">//android.widget.ImageButton[@resource-id="com.axonator:id/btnStartWidgetStopwatchFrag"]</locator>
+    <locator id="stopWatchStop">//android.widget.ImageButton[@resource-id="com.axonator:id/btnStopWidgetStopwatchFrag"]</locator>
+    <locator id="stopWatchBack">//android.widget.ImageButton[@content-desc="Navigate up"]</locator>
+    <locator id="toggle">//android.widget.Switch[@resource-id="com.axonator:id/toggleSwitchWidgetSwitchFrag"]</locator>
+    
+    <locator id="date_time">//android.widget.ImageView[@resource-id="com.axonator:id/inputFieldIcon"]</locator>
+    <locator id="date">//android.view.View[@content-desc="06 April 2024"]</locator>
+
+    <locator id="timeStamp">//android.widget.TextView[@resource-id="com.axonator:id/adapterWidgetPrompt" and @text="Timestamp"]</locator>
+    <locator id="timeStampTap">//android.widget.Button[@resource-id="com.axonator:id/btnTakeWidgetTimeStampFrag"]</locator>
+
+    <locator id="counterInc">//android.widget.ImageButton[@resource-id="com.axonator:id/btnIncrementWidgetCounterFrag"]</locator>
+    <locator id="counterDec">//android.widget.ImageButton[@resource-id="com.axonator:id/btnIncrementWidgetCounterInline"]</locator>
+
+    <locator id="tapToLocate">//android.widget.TextView[@resource-id="com.axonator:id/tvPromptMainCaptureGPSWidgetFrag"]</locator>
+    <locator id="setLocation">//android.widget.TextView[@content-desc="Done"]</locator>
+
+    <locator id="addChildForm">//android.widget.Button[@resource-id="com.axonator:id/btnAddChildRecord"]</locator>
+    <locator id="childFormWizard">//android.widget.ImageView[@resource-id="com.axonator:id/inputFieldIcon"]</locator>
+    <locator id="back">//android.widget.ImageButton[@content-desc="Navigate up"]</locator>
+    <locator id="allowPermission">//android.widget.Button[@resource-id="com.android.permissioncontroller:id/permission_allow_foreground_only_button"]</locator>
+    <locator id="musicPermission">//android.widget.Button[@resource-id="com.android.permissioncontroller:id/permission_allow_button"]</locator>
+    <locator id="submit">//android.widget.Button[@resource-id="com.axonator:id/btnSaveTraverseWidgets"]</locator>
+    <locator id="submitForm">//android.widget.TextView[@resource-id="android:id/text1" and @text="Submit"]</locator>
+
+</locators>
