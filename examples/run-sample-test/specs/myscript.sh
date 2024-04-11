@@ -1,1 +1,2 @@
-appium & npm run test
+npx appium 
+npm run test
