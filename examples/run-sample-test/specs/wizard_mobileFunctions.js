@@ -1,5 +1,5 @@
 const { readLocatorsFromXML } = require('./xpathReader');
-const { AppiumBy } = require('appium');
+
 
 
 const path = require('path');
