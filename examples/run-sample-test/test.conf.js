@@ -56,7 +56,7 @@ exports.config = {
   baseUrl: '',
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,
-  connectionRetryCount: 3,
+  connectionRetryCount: 1,
 
   framework: 'mocha',
   mochaOpts: {
