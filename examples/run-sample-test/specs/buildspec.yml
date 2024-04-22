@@ -1,0 +1,31 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: 'cypress/base:14.17.0'
+
+    working_directory: ~/android
+
+    steps:
+      - checkout
+
+      # Install global dependencies
+      - run:
+          name: Install Appium globally
+          command: npm install -g appium
+
+      # Start Appium server
+      - run:
+          name: Start Appium server
+          command: npx appium
+
+      # Install project dependencies
+      - run:
+          name: Install project dependencies
+          command: npm install
+
+      # Run tests
+      - run:
+          name: Run tests
+          command: npm run test
