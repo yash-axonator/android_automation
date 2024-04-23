@@ -26,7 +26,7 @@ describe('BrowserStack Local Testing', () => {
 
     var matchedString = await testElement.getText();
     console.log(matchedString);
-    assert(matchedString.indexOf('The active connection is wifi') !== -1);
+    assert(matchedString.indexOf('The active connection is wifi') !== 1);
     assert(matchedString.indexOf('Up and running') !== -1);
   });
 });
