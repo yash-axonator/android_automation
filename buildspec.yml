@@ -5,6 +5,7 @@ phases:
          nodejs: 20
        commands:
          - npm install -g appium webdriverio
+         - npm install @wdio/cli
          - npm install
      build:
        commands:
