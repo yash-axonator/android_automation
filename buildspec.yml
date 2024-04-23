@@ -7,6 +7,7 @@ phases:
          - npm install -g appium webdriverio
          - npm install @wdio/cli
          - npm install
+         - yarn install
      build:
        commands:
          - npm run test
